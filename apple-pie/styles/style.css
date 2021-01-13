@@ -1,0 +1,28 @@
+header {
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;  
+    height: 300px;
+    padding-top: 120px;
+    color: white;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+div {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 150px;
+}
+
+.ingredients > ul {
+    list-style: none;
+    }
+
+ul > li:before {
+    content: "-          ";
+}
+.container {
+    display: flex;
+    justify-content: center;
+
+}
